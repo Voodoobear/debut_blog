@@ -47,7 +47,7 @@ session_start();
 		}
 		?>
 
-		<p style="margin-top: 5em; text-align: center;"><a href="destruction.php">Me déconnecter</a></p>
+		<p style="margin-top: 5.2em; text-align: center;"><a href="destruction.php">Me déconnecter</a></p>
 
 	</body>
 </html>
