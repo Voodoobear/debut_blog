@@ -28,6 +28,8 @@ session_start();
 			Je me souviens de toi ! Tu t'appelles <?php echo htmlspecialchars($_SESSION['prenom']) . ' ' . htmlspecialchars($_SESSION['nom']); ?> !<br>
 			Et ton âge humm... Tu as <?php echo htmlspecialchars($_SESSION['age']); ?> ans, c'est bien ça ? : -D
 		</p>
+		
+		<?php include('minichat.php'); ?>
 
 		<?php
 		}
