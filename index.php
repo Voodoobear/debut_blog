@@ -13,6 +13,8 @@ if (!empty($_POST['prenom']) AND !empty($_POST['nom']) AND !empty($_POST['age'])
 
 ?>
 
+<!-- ====================================== DEBUT HTML =============================================== -->
+
 <!DOCTYPE html>
 <html>
 	<head>
