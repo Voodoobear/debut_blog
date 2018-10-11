@@ -19,11 +19,12 @@ if (!empty($_POST['prenom']) AND !empty($_POST['nom']) AND !empty($_POST['age'])
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>Titre de ma page</title>
+		<title>Petit blog d'exercices</title>
 	</head>
 	<body>
 
     	<h1 style="text-decoration: underline; text-align: center; color: rgba(50,50,50,0.8);">Bienvenue sur la page des Sessions</h1>
+		<h2 style="text-align: center;">Page d'Accueil</h2>
 
 		<ul style="list-style-type: none; display: flex; justify-content: space-around; margin: 2em 0 5em 0;">
 			<li><a style="text-decoration: none;" href="index.php">Lien vers index.php</a></li>
@@ -71,6 +72,9 @@ if (!empty($_POST['prenom']) AND !empty($_POST['nom']) AND !empty($_POST['age'])
 			<p style="margin-left: 2em;">
 				Tu es à l'accueil de mon site ! Tu veux aller sur une autre page  ?
 			</p>
+			
+			<?php include('minichat.php'); ?>
+			
 			<p style="margin-top: 5em; text-align: center;"><a href="destruction.php">Me déconnecter</a></p>
 		<?php
 		}
