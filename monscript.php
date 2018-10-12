@@ -4,13 +4,11 @@ session_start();
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Script</title>
-	</head>
+	
+	<?php include('include_head.php'); ?>
+	
 	<body>
-		<h1 style="text-decoration: underline; text-align: center; color: rgba(50,50,50,0.8);">Bienvenue sur la page des Sessions</h1>
-		<h2 style="text-align: center;">Page "monscript.php"</h2>
+		<h1 style="text-align: center;">Page "monscript.php"</h1>
 
 		<ul style="list-style-type: none; display: flex; justify-content: space-around; margin: 2em 0 5em 0;">
 			<li><a style="text-decoration: none;" href="index.php">Lien vers index.php</a></li>
@@ -44,6 +42,7 @@ session_start();
 
 		<?php
 		}
+		include('include_script.php');
 		?>
 
 		<p style="margin-top: 5em; text-align: center;"><a href="destruction.php">Me déconnecter</a></p>
