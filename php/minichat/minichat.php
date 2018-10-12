@@ -22,7 +22,7 @@
 		}
 		$reponse->closeCursor();
 	?>
-	<form action="minichat_post.php" method="post">
+	<form action="php/minichat/minichat_post.php" method="post">
 		<p style="text-align:center;color:orange;" >Bonjour <?php echo htmlspecialchars($_SESSION['pseudo']); ?> veux-tu chatter avec les autres menmbres ?<p>
 		<p>
 			<textarea name="message" rows="1" cols="100" placeholder="Votre message ici..."></textarea>

@@ -26,7 +26,7 @@ else {
 	echo 'Vous ne pouvez envoyer un message vide :-)';
 }
 
-header('Location:index.php');
+header('Location:../../index.php');
 
 
 
