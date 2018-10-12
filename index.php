@@ -13,7 +13,6 @@ if (!empty($_POST['prenom']) AND !empty($_POST['nom']) AND !empty($_POST['age'])
 
 ?>
 
-<!-- ====================================== FIN CSSJAVASCRIPHPSQL =============================================== -->
 
 <!DOCTYPE html>
 <html>
@@ -27,11 +26,11 @@ if (!empty($_POST['prenom']) AND !empty($_POST['nom']) AND !empty($_POST['age'])
 	</head>
 	<body>
 
-    	<h1 style="text-decoration: underline; text-align: center; color: rgba(50,50,50,0.8);">Bienvenue sur la page des Sessions</h1>
-		<h2 style="text-align: center;">Page d'Accueil</h2>
+    	<h1>Bienvenue sur la page des Sessions</h1>
+		<h2>Page d'Accueil</h2>
 
-		<ul style="list-style-type: none; display: flex; justify-content: space-around; margin: 2em 0 5em 0;">
-			<li><a style="text-decoration: none;" href="index.php">Lien vers index.php</a></li>
+		<ul>
+			<li><a  href="index.php">Lien vers index.php</a></li>
 			<li><a style="text-decoration: none;" href="informations.php">Lien vers informations.php</a></li>
 			<li><a style="text-decoration: none;" href="mapage.php">Lien vers mapage.php</a></li>
 			<li><a style="text-decoration: none;" href="monscript.php">Lien vers monscript.php</a></li>
