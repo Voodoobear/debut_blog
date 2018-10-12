@@ -16,18 +16,21 @@ if (!empty($_POST['prenom']) AND !empty($_POST['nom']) AND !empty($_POST['age'])
 
 <!DOCTYPE html>
 <html>
-	<?php include('include_head.php'); ?>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/style.css">
+		<title>Petit blog d'exercices</title>
+	</head>
 	<body>
-<<<<<<< HEAD
 
     	<h1>Bienvenue sur la page des Sessions</h1>
 		<h2>Page d'Accueil</h2>
-=======
-		<h1 style="text-align: center;">Page d'Accueil</h1>
->>>>>>> e0c98905b47f2fe767821909fbf42f98cd18990a
 
-		<ul>
-			<li><a  href="index.php">Lien vers index.php</a></li>
+		<ul style="list-style-type: none; display: flex; justify-content: space-around; margin: 2em 0 5em 0;">
+			<li><a style="text-decoration: none;" href="index.php">Lien vers index.php</a></li>
 			<li><a style="text-decoration: none;" href="informations.php">Lien vers informations.php</a></li>
 			<li><a style="text-decoration: none;" href="mapage.php">Lien vers mapage.php</a></li>
 			<li><a style="text-decoration: none;" href="monscript.php">Lien vers monscript.php</a></li>
@@ -78,8 +81,9 @@ if (!empty($_POST['prenom']) AND !empty($_POST['nom']) AND !empty($_POST['age'])
 			<p style="margin-top: 5em; text-align: center;"><a href="destruction.php">Me déconnecter</a></p>
 		<?php
 		}
-		include('include_script.php');
 		?>
 
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="./js/script.js"></script>
 	</body>
 </html>
