@@ -50,7 +50,7 @@ if (!empty($_POST['prenom']) AND !empty($_POST['nom']) AND !empty($_POST['age'])
         		<p>
             		<input type="submit" name="Valider" style="color: rgba(0,0,100,0.9); background-color: rgba(150,150,150,0.8); border: 1px solid rgba(150,150,150,0.8); font-weight: bold;">
         		</p>
-    	</form>   
+    	    </form>
 
 		<?php
 		}
@@ -64,7 +64,7 @@ if (!empty($_POST['prenom']) AND !empty($_POST['nom']) AND !empty($_POST['age'])
 			<p style="margin-left: 2em;">
 				Tu es à l'accueil de mon site ! Tu veux aller sur une autre page  ?
 			</p>
-			
+            <form action="php/minichat/minichat_post.php" method="post">
 			<?php include('php/minichat/minichat.php'); ?>
 			
 			<p style="margin-top: 5em; text-align: center;"><a href="php/vues/destruction.php">Me déconnecter</a></p>

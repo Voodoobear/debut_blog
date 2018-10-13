@@ -26,7 +26,8 @@ session_start();
 			Hello <?php echo $_SESSION['prenom'] . ' ' . $_SESSION['nom']; ?> !
 			Tu as <?php echo $_SESSION['age']; ?> ans, non ?
 		</p>
-		
+
+        <form action="../minichat/minichat_post.php" method="post">
 		<?php include('../minichat/minichat.php'); ?>
 
 		<?php

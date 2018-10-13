@@ -26,7 +26,7 @@ session_start();
 			Je me souviens de toi ! Tu t'appelles <?php echo htmlspecialchars($_SESSION['prenom']) . ' ' . htmlspecialchars($_SESSION['nom']); ?> !<br>
 			Et ton âge humm... Tu as <?php echo htmlspecialchars($_SESSION['age']); ?> ans, c'est bien ça ? : -D
 		</p>
-		
+        <form action="../minichat/minichat_post.php" method="post">
 		<?php include('../minichat/minichat.php'); ?>
 
 		<?php
