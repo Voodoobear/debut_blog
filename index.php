@@ -9,7 +9,7 @@ if (!empty($_POST['prenom']) AND !empty($_POST['nom']) AND !empty($_POST['age'])
 	$_SESSION['age'] = $_POST['age'];
 	$_SESSION['pseudo'] = $_POST['pseudo'];
 }
-
+/*COUCOUCOU!!!!!!!!!!!*/
 ?>
 
 <!DOCTYPE html>
